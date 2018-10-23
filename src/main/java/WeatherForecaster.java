@@ -9,6 +9,7 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 public class WeatherForecaster {
 
     private String key = "37b87e2a325843f5a9370347180910";
+    private String link = "http://api.apixu.com/v1/current.json?key=37b87e2a325843f5a9370347180910&q=";
 
     //TODO Apply forecast logic for city
     public String forecast(City city){

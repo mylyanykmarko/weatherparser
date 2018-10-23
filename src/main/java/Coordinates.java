@@ -10,9 +10,7 @@ import java.lang.annotation.Documented;
 
 //TODO Create class that represents coordinates
 public class Coordinates {
-    //private String lat;
-    //private String lng;
-    //private String[] coors;
+
 
     public static String getCoor(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
